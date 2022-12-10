@@ -8,8 +8,6 @@ body {
     background-size: cover;
     height: 100vh;
 
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -35,7 +33,7 @@ h1 {
     top: 115px;
     margin: 0;
 
-    font-family: 'Karla';
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 40px;
@@ -55,7 +53,7 @@ p {
     top: 205px;
     margin: 10px 0 51px 0;
 
-    font-family: 'Inter';
+    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -83,7 +81,7 @@ button {
     border-radius: 6px;
 
     /* Text */
-    font-family: 'Inter';
+    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -96,8 +94,12 @@ button {
     flex-grow: 0;
 }
 
+button:hover {
+    border: solid 4px #79d1e7;
+}
+
 button:active {
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 1px 4px #79d1e7;
     transform: translateY(2px);
 }
 
@@ -130,7 +132,7 @@ hr {
     padding: 4px;
     margin-top: 0;
 
-    font-family: 'Inter';
+    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -150,7 +152,7 @@ hr {
     padding: 4px;
     margin-top: 0;
 
-    font-family: 'Inter';
+    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -159,4 +161,21 @@ hr {
     text-align: center;
 
     color: #55F991;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 25px;
+
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+}
+
+a:link, a:visited {
+    color: #55F991;
+    text-decoration: none;
 }
